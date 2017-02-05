@@ -1,0 +1,16 @@
+PODS:
+  - RxSwift (3.2.0)
+  - RxTest (3.2.0):
+    - RxSwift (~> 3.0)
+
+DEPENDENCIES:
+  - RxSwift
+  - RxTest
+
+SPEC CHECKSUMS:
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  RxTest: 85fdd6f753e8e62635a58d37bbdd3ce7d5abbef3
+
+PODFILE CHECKSUM: bd96ccde8af20818efdaa44a24fa4c44be9722fa
+
+COCOAPODS: 1.2.0

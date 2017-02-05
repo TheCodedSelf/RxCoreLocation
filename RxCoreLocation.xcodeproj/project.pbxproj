@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A708DB830BF5B6D332E02C3 /* Pods_RxCoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58160AA05E37828FB7E37DF /* Pods_RxCoreLocation.framework */; };
+		7D4EDC717A616B705E6720A7 /* Pods_RxCoreLocationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE64936A9C8E8358A8D249A /* Pods_RxCoreLocationTests.framework */; };
 		958514661E474EDF009C42B2 /* RxCoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9585145C1E474EDE009C42B2 /* RxCoreLocation.framework */; };
 		9585146B1E474EDF009C42B2 /* RxCoreLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585146A1E474EDF009C42B2 /* RxCoreLocationTests.swift */; };
 		9585146D1E474EDF009C42B2 /* RxCoreLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9585145F1E474EDE009C42B2 /* RxCoreLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958514781E474EF3009C42B2 /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958514761E474EF3009C42B2 /* Locator.swift */; };
+		958514791E474EF3009C42B2 /* LocatorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958514771E474EF3009C42B2 /* LocatorImplementation.swift */; };
+		9585147D1E47508D009C42B2 /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585147C1E47508D009C42B2 /* MockLocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0231871691473B943A8CD564 /* Pods-RxCoreLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCoreLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxCoreLocation/Pods-RxCoreLocation.release.xcconfig"; sourceTree = "<group>"; };
+		16256D70CAE539466343F25A /* Pods-RxCoreLocationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCoreLocationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxCoreLocationTests/Pods-RxCoreLocationTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CE64936A9C8E8358A8D249A /* Pods_RxCoreLocationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxCoreLocationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9585145C1E474EDE009C42B2 /* RxCoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCoreLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9585145F1E474EDE009C42B2 /* RxCoreLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCoreLocation.h; sourceTree = "<group>"; };
 		958514601E474EDE009C42B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958514651E474EDF009C42B2 /* RxCoreLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxCoreLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9585146A1E474EDF009C42B2 /* RxCoreLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCoreLocationTests.swift; sourceTree = "<group>"; };
 		9585146C1E474EDF009C42B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958514761E474EF3009C42B2 /* Locator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Locator.swift; path = "../../shnapped-ios/shnapped-ios/Locator/Locator.swift"; sourceTree = "<group>"; };
+		958514771E474EF3009C42B2 /* LocatorImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocatorImplementation.swift; path = "../../shnapped-ios/shnapped-ios/LocatorImplementation.swift"; sourceTree = "<group>"; };
+		9585147C1E47508D009C42B2 /* MockLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockLocationManager.swift; path = "../../shnapped-ios/shnapped-iosTests/MockLocationManager.swift"; sourceTree = "<group>"; };
+		9D90CFC6FF744694B2DF7641 /* Pods-RxCoreLocationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCoreLocationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxCoreLocationTests/Pods-RxCoreLocationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C58160AA05E37828FB7E37DF /* Pods_RxCoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxCoreLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E433CCDCE228D5F75ECE290C /* Pods-RxCoreLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCoreLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxCoreLocation/Pods-RxCoreLocation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A708DB830BF5B6D332E02C3 /* Pods_RxCoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +59,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				958514661E474EDF009C42B2 /* RxCoreLocation.framework in Frameworks */,
+				7D4EDC717A616B705E6720A7 /* Pods_RxCoreLocationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E9B945292672D126B9FECCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C58160AA05E37828FB7E37DF /* Pods_RxCoreLocation.framework */,
+				8CE64936A9C8E8358A8D249A /* Pods_RxCoreLocationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		958514521E474EDE009C42B2 = {
 			isa = PBXGroup;
 			children = (
 				9585145E1E474EDE009C42B2 /* RxCoreLocation */,
 				958514691E474EDF009C42B2 /* RxCoreLocationTests */,
 				9585145D1E474EDE009C42B2 /* Products */,
+				960A1C79118D6DFD19D00ADD /* Pods */,
+				0E9B945292672D126B9FECCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +98,8 @@
 		9585145E1E474EDE009C42B2 /* RxCoreLocation */ = {
 			isa = PBXGroup;
 			children = (
+				958514761E474EF3009C42B2 /* Locator.swift */,
+				958514771E474EF3009C42B2 /* LocatorImplementation.swift */,
 				9585145F1E474EDE009C42B2 /* RxCoreLocation.h */,
 				958514601E474EDE009C42B2 /* Info.plist */,
 			);
@@ -80,10 +109,22 @@
 		958514691E474EDF009C42B2 /* RxCoreLocationTests */ = {
 			isa = PBXGroup;
 			children = (
+				9585147C1E47508D009C42B2 /* MockLocationManager.swift */,
 				9585146A1E474EDF009C42B2 /* RxCoreLocationTests.swift */,
 				9585146C1E474EDF009C42B2 /* Info.plist */,
 			);
 			path = RxCoreLocationTests;
+			sourceTree = "<group>";
+		};
+		960A1C79118D6DFD19D00ADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E433CCDCE228D5F75ECE290C /* Pods-RxCoreLocation.debug.xcconfig */,
+				0231871691473B943A8CD564 /* Pods-RxCoreLocation.release.xcconfig */,
+				9D90CFC6FF744694B2DF7641 /* Pods-RxCoreLocationTests.debug.xcconfig */,
+				16256D70CAE539466343F25A /* Pods-RxCoreLocationTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 958514701E474EDF009C42B2 /* Build configuration list for PBXNativeTarget "RxCoreLocation" */;
 			buildPhases = (
+				8DBAFC2EB9AAC63AAB990AF6 /* [CP] Check Pods Manifest.lock */,
 				958514571E474EDE009C42B2 /* Sources */,
 				958514581E474EDE009C42B2 /* Frameworks */,
 				958514591E474EDE009C42B2 /* Headers */,
 				9585145A1E474EDE009C42B2 /* Resources */,
+				10077A45FB5EB020330C6B6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 958514731E474EDF009C42B2 /* Build configuration list for PBXNativeTarget "RxCoreLocationTests" */;
 			buildPhases = (
+				2954A84E7862F2BECDBD1119 /* [CP] Check Pods Manifest.lock */,
 				958514611E474EDF009C42B2 /* Sources */,
 				958514621E474EDF009C42B2 /* Frameworks */,
 				958514631E474EDF009C42B2 /* Resources */,
+				22C5F2AD73139C84489D4BBC /* [CP] Embed Pods Frameworks */,
+				AE90F17B7FE03DCE8A414100 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +194,7 @@
 				TargetAttributes = {
 					9585145B1E474EDE009C42B2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					958514641E474EDF009C42B2 = {
@@ -191,11 +238,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10077A45FB5EB020330C6B6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxCoreLocation/Pods-RxCoreLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22C5F2AD73139C84489D4BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxCoreLocationTests/Pods-RxCoreLocationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2954A84E7862F2BECDBD1119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DBAFC2EB9AAC63AAB990AF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE90F17B7FE03DCE8A414100 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxCoreLocationTests/Pods-RxCoreLocationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		958514571E474EDE009C42B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958514791E474EF3009C42B2 /* LocatorImplementation.swift in Sources */,
+				958514781E474EF3009C42B2 /* Locator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9585147D1E47508D009C42B2 /* MockLocationManager.swift in Sources */,
 				9585146B1E474EDF009C42B2 /* RxCoreLocationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,7 +447,9 @@
 		};
 		958514711E474EDF009C42B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E433CCDCE228D5F75ECE290C /* Pods-RxCoreLocation.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,13 +461,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shnapped.RxCoreLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		958514721E474EDF009C42B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0231871691473B943A8CD564 /* Pods-RxCoreLocation.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,7 +488,9 @@
 		};
 		958514741E474EDF009C42B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D90CFC6FF744694B2DF7641 /* Pods-RxCoreLocationTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RxCoreLocationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shnapped.RxCoreLocationTests;
@@ -366,7 +501,9 @@
 		};
 		958514751E474EDF009C42B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16256D70CAE539466343F25A /* Pods-RxCoreLocationTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RxCoreLocationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shnapped.RxCoreLocationTests;
@@ -394,6 +531,7 @@
 				958514721E474EDF009C42B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		958514731E474EDF009C42B2 /* Build configuration list for PBXNativeTarget "RxCoreLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +540,7 @@
 				958514751E474EDF009C42B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
