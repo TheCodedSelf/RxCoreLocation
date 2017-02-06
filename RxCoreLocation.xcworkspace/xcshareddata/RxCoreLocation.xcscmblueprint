@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "654713FA9352A24C4730B6AE1CEC527F945718C6",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BF013900F95D9FBB24F4AEE4DE9F14B7D85112DD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "CC32ADE6EF68E50B3FBAA003A4F990ECA5A3C70B" : 9223372036854775807,
-    "654713FA9352A24C4730B6AE1CEC527F945718C6" : 9223372036854775807
+    "BF013900F95D9FBB24F4AEE4DE9F14B7D85112DD" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3F7B9AF4-6143-4E2C-8E02-C3A8FC58EF55",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "CC32ADE6EF68E50B3FBAA003A4F990ECA5A3C70B" : "shnapped-ios\/",
-    "654713FA9352A24C4730B6AE1CEC527F945718C6" : "RxCoreLocation\/"
+    "BF013900F95D9FBB24F4AEE4DE9F14B7D85112DD" : "RxCoreLocation\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "RxCoreLocation",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:thecodedself\/rxcorelocation.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "654713FA9352A24C4730B6AE1CEC527F945718C6"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF013900F95D9FBB24F4AEE4DE9F14B7D85112DD"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shnapped\/shnapped-ios.git",
