@@ -2,8 +2,8 @@
 //  MockLocationManager.swift
 //  RxCoreLocation
 //
-//  Created by Keegan Rush on 2017/02/06.
-//  Copyright © 2017 shnapped. All rights reserved.
+//  Created by The Coded Self on 2017/02/06.
+//  Copyright © 2017 The Coded Self. All rights reserved.
 //
 
 import Foundation
